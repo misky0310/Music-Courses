@@ -16,7 +16,7 @@ export default function FeaturedCourses({course}:any) {
         <p className="text-sm text-neutral-600 dark:text-neutral-400 text-center md:h-[40%]">
           {course.description}
         </p>
-        <Link href={`/${course.slug}`}>
+        <Link href={`/courses/${course.slug}`}>
             <button className="rounded-full pl-4 pr-1 py-3 text-white flex justify-center items-center space-x-1 bg-black mt-4 text-sm font-bold dark:bg-zinc-800 w-1/2 mx-auto">
             Learn More
             </button>
