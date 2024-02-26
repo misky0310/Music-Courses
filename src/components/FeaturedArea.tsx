@@ -30,7 +30,7 @@ const FeaturedArea = () => {
 
         <div>
             <Link href={'/courses'}>
-                <button className="rounded-full pl-4 pr-1 py-3 text-white flex justify-center items-center space-x-1 bg-black mt-10 text-md font-bold dark:bg-zinc-800 w-[20%] mx-auto">
+                <button className="rounded-full md:pl-4 md:pr-1 px-3 py-3 text-white flex justify-center items-center space-x-1 bg-black mt-10 text-sm md:text-md font-bold dark:bg-zinc-800 md:w-[20%] mx-auto">
                 Explore Courses
                 </button>
             </Link>
